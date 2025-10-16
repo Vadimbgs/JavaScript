@@ -4,4 +4,4 @@ https://www.youtube.com/watch?v=wdViO9OcQzs&list=PLRD56Ql8zouzzCQWIwysCdq8UvC6Lm
 
 https://youtu.be/DuWyc76lYC4?si=xjqg41ZljK4F0N0T - JavaScript Document object model (DOM) за час. Изменение HTML CSS. Атрибуты и свойства. Окружение
 
-https://www.youtube.com/watch?v=DuWyc76lYC4&t=2891s - Перенос элемента
+https://youtu.be/DuWyc76lYC4?t=4114 - Домашка
