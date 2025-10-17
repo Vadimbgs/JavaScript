@@ -2,8 +2,4 @@
 
 https://www.youtube.com/watch?v=wdViO9OcQzs&list=PLRD56Ql8zouzzCQWIwysCdq8UvC6LmCYh - Фриласер по жизни.Курс обучения JavaScript с нуля.
 
-https://youtu.be/DuWyc76lYC4?si=xjqg41ZljK4F0N0T - JavaScript Document object model (DOM) за час. Изменение HTML CSS. Атрибуты и свойства. Окружение
-
-https://youtu.be/DuWyc76lYC4?t=4098 - Анонс (Просмотрено)
-
-https://youtu.be/DuWyc76lYC4?t=4114 - Домашка (На следуещий раз)
+https://youtu.be/TEeKr2ON66A - JavaScript размеры прокрутка и координаты элементов на странице и окна браузера.
