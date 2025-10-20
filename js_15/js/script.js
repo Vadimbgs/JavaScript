@@ -180,11 +180,11 @@ function showConsole(event) {
 */
 
 // Всплытие и погружение
-
+/*
 const block = document.querySelector('.block');
 const blockInner = document.querySelector('.block__inner');
 const blockInnerInner = document.querySelector('.block__inner-inner');
-
+*/
 /*
 Всплытие
 Когда на элементе происходит событие, обработчики
@@ -268,9 +268,19 @@ function menu(event) {
 	}
 }
 
-*/
+// Пример с keyup и keydown
+
+document.addEventListener('keyup', function(event) {
+	console.log(event.code);
+	// Условное ответвление
+	if (event.code === 'Escape') {
+		menuBody.classList.remove('_active');
+	}
+});
 
 //===================================================
+
+*/
 
 // Действия браузера по умолчанию
 
@@ -322,7 +332,7 @@ preventDefault(). Почему это может быть полезно ?
 Для некоторых браузеров(Firefox, Chrome) опция passive по умолчанию
 включена в true для таких событий, как touchstart и touchmove.
 */
-
+/*
 const link = document.querySelector('.link');
 
 link.addEventListener("click", function (event) {
@@ -332,7 +342,7 @@ link.addEventListener("click", function (event) {
 }, { "passive": true });
 
 //===================================================
-
+*/
 // Основы событий мыши
 
 // Типы событий мыши
@@ -760,7 +770,7 @@ function readyLoad() {
 */
 
 
-/*
+
 // Событие beforeunload срабатывает на объекте window
 window.addEventListener("beforeunload", beforeUnLoad);
 
@@ -778,7 +788,7 @@ window.addEventListener("unload", function (e) {
 	// navigator.sendBeacon(url, data)
 	// https://w3c.github.io/beacon/.
 });
-*/
+
 
 //========================================================================================================================================================
 //========================================================================================================================================================

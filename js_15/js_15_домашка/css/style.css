@@ -1,0 +1,138 @@
+/* body {
+  font-family: system-ui, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-icon {
+  font-size: 24px;
+  background: #0078ff;
+  border: none;
+  color: white;
+  padding: 10px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.search-icon:hover {
+  background: #005fcc;
+}
+
+.search-form {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background: white;
+  padding: 12px 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  width: 250px;
+  animation: fadeIn 0.3s ease;
+}
+
+.search-form.active {
+  display: flex;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+#searchInput {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+#charCount {
+  font-size: 12px;
+  color: #666;
+  text-align: right;
+} */
+
+
+
+
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #f4f4f4;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Контейнер фиксируем в верхнем левом углу */
+.search-container {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000; /* чтобы форма была поверх остальных элементов */
+}
+
+.search-icon {
+  font-size: 24px;
+  background: #0078ff;
+  border: none;
+  color: white;
+  padding: 10px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.search-icon:hover {
+  background: #005fcc;
+}
+
+.search-form {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background: white;
+  padding: 12px 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  width: 250px;
+  animation: fadeIn 0.3s ease;
+}
+
+.search-form.active {
+  display: flex;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+#searchInput {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+#charCount {
+  font-size: 12px;
+  color: #666;
+  text-align: right;
+}
